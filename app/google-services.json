@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "810549702689",
+    "project_id": "environmental-studies-ed9cc",
+    "storage_bucket": "environmental-studies-ed9cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810549702689:android:0866f6deac014147e03360",
+        "android_client_info": {
+          "package_name": "com.example.environmentalstudies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFLuZh9g0vZdNK_bmiIt6X9qHiZtQRfkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

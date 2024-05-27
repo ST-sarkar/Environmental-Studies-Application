@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cardback">#F5FDFC</color>
+    <color name="orange"> #ff4000</color>
+    <color name="blue">#00bfff</color>
+    <color name="green">#32a852</color>
+    <color name="gray">#DC45494C</color>
+
+    <color name="Primary">#01245A</color>
+    <color name="Primary_dark">#56C1EC</color>
+
+    <color name="accent">#FF66D4</color>
+    <color name="accent_dark">#510240</color>
+
+    <color name="text">#431042</color>
+
+
+
+</resources>

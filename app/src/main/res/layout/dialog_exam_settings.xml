@@ -1,0 +1,30 @@
+<!-- res/layout/dialog_exam_settings.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#F8F6FA"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroupSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <!-- Exam set options will be added dynamically in code -->
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnStartExam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        android:backgroundTint="#673AB7"
+        android:text="Start Exam"
+        android:textColor="@android:color/white" />
+</LinearLayout>

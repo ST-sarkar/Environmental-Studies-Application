@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Fragment.QuizHomeFrag">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DDD6EC"
+        android:layout_marginTop="0dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="149dp"
+                android:layout_height="162dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_9" />
+
+         <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/animationView"
+                android:backgroundTint="#DDD6EC"
+                app:cardCornerRadius="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                    android:id="@+id/header_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textSize="30dp"
+                    android:textFontWeight="500"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textColor="#1C1033"
+                    android:padding="5dp"
+                    android:text="QUIZ"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="508dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/unitWise"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:clickable="true"
+                            app:cardCornerRadius="60dp"
+                            app:cardElevation="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#301B53"
+                                android:gravity="center"
+                                android:text="Unit Wise"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="18dp" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/quiz"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="true"
+                            app:cardCornerRadius="60dp"
+                            app:cardElevation="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#301B53"
+                                android:gravity="center"
+                                android:text="Quiz"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="18dp"
+                                app:cardElevation="10dp" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/exam"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="20dp"
+                            android:clickable="true"
+                            app:cardCornerRadius="60dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#301B53"
+                                android:gravity="center"
+                                android:text="Exam"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="18dp" />
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

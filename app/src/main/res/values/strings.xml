@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ENV Studies</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signUp">Dont have an Account?<font color='#fff'> Sign Up</font></string>
+    <string name="forgot_pass"><font color='#ff3'><b>Forgot Password</b></font></string>
+    <string name="reset_pass">Enter email to reset password</string>
+
+    <string name="progress_text">%1$d%%</string>
+
+</resources>

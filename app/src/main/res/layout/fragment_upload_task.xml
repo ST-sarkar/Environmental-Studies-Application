@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    tools:context=".Admin.Fragment.UploadTaskFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Task"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/accent_dark"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#251542"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/task_Title"
+                android:hint="Title"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_marginBottom="20dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/task_publish"
+                    android:layout_width="205dp"
+                    android:layout_height="48dp"
+                    android:hint="publish date"
+                    android:inputType="date"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pick_date1"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="#C3B2E1"
+                    android:text="PickDate"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/task_deadline"
+                    android:layout_width="205dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Deadline"
+                    android:inputType="date"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/pick_date2"
+                    android:layout_width="126dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="#C3B2E1"
+                    android:text="PickDate"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+
+
+\
+            <EditText
+                android:id="@+id/task_Desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:textColorHint="@color/white"
+                android:inputType="textMultiLine"
+                android:layout_marginBottom="20dp"
+                android:gravity="top|start"
+                android:textColor="@color/white"
+                android:minLines="5"
+                android:maxLines="10"
+                android:scrollbars="vertical" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Upload"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#251542"
+            android:text="Upload"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#251542"
+            android:text="Clear"
+            android:textColor="@color/white"
+
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

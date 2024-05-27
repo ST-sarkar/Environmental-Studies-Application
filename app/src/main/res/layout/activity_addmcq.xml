@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/selectExcelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="189dp"
+            android:layout_height="152dp"
+            android:layout_above="@+id/selectexcelBtn"
+            android:layout_marginBottom="14dp"
+            android:src="@drawable/img"
+            android:layout_marginLeft="100dp">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/selectexcelBtn"
+            android:layout_width="239dp"
+            android:layout_height="63dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#2A6E2D"
+            android:text="Select Excel File"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/submitLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/excelmcqRVL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/registerStudentBtn" />
+
+        <Button
+            android:id="@+id/registerStudentBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Add" />
+    </RelativeLayout>
+
+</RelativeLayout>

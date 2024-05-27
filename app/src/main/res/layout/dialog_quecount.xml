@@ -1,0 +1,29 @@
+<!-- res/layout/dialog_exam_settings.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#EFF2F6"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/queCET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter How many que you want to solve"
+        android:textColorHint="@color/black"
+        android:textColor="#020202"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnStartExam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#673AB7"
+        android:text="Start"
+        android:textColor="@android:color/white" />
+</LinearLayout>

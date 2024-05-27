@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_Home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_addQue"
+        android:title="Upload Quiz Questions" />
+
+    <item
+        android:id="@+id/nav_task"
+        android:title="Upload Task" />
+
+    <item
+        android:id="@+id/nav_UpPPT"
+        android:title="Upload PPT" />
+
+    <item
+        android:id="@+id/nav_UpNotes"
+        android:title="Upload Notes" />
+    <item
+        android:id="@+id/nav_UpQBank"
+        android:title="Upload Question Bank" />
+    <item
+        android:id="@+id/nav_UpProject"
+        android:title="Upload Project" />
+
+    <item
+        android:id="@+id/nav_UpBooks"
+        android:title="Upload Books"
+        />
+
+    <item
+        android:id="@+id/nav_Logout"
+        android:title="Logout"/>
+
+</menu>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1DCEA"
+    tools:context=".User.Fragment.StudyMaterialFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E1DCEA"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="Learning content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="152dp"
+            android:src="@drawable/img_7"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/LL_block1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_header"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/quiz"
+            android:layout_width="150dp"
+            android:layout_height="95dp"
+            app:cardBackgroundColor="#113E5C"
+            app:cardCornerRadius="60dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Quiz"
+                android:textSize="21dp"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/notes"
+            android:layout_width="150dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="10dp"
+            app:cardBackgroundColor="#113E5C"
+            app:cardCornerRadius="60dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Note's"
+                android:textSize="21dp"
+                />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_block2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL_block1"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ppt"
+            android:layout_width="150dp"
+            android:layout_height="95dp"
+            app:cardBackgroundColor="#113E5C"
+            app:cardCornerRadius="60dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="PPT"
+                android:textSize="21dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/project"
+            android:layout_width="150dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="10dp"
+            app:cardBackgroundColor="#113E5C"
+            app:cardCornerRadius="60dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Projects"
+                android:textSize="21dp"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_block3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL_block2"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/book"
+            android:layout_width="150dp"
+            android:layout_height="95dp"
+            app:cardBackgroundColor="#113E5C"
+            app:cardCornerRadius="60dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Books"
+                android:textSize="21dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Q_bank"
+            android:layout_width="150dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="10dp"
+            app:cardBackgroundColor="#113E5C"
+            app:cardCornerRadius="60dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Q Banks"
+                android:textSize="21dp"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

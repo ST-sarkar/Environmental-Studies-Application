@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    tools:context=".Admin.Fragment.BookUploadFragment">
+
+    <ImageView
+        android:id="@+id/img_book_upload"
+        android:layout_width="144dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:src="@drawable/img_3"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_book_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book Title"
+            android:textColorHint="@color/white"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_book_auther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book Author"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_book_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book Price"
+            android:inputType="numberDecimal" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_book_uri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reference URl"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_book_submit"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Primary"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
